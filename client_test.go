@@ -25,7 +25,7 @@ func TestNewClientWithInvalidApiKey(t *testing.T) {
 }
 
 func TestNewClientWithValidApiKey(t *testing.T) {
-	apiKey := "gcntfy-testing11-00000000-0000-0000-0000-000000000000-00000000-0000-0000-0000-00000000000000"
+	apiKey := "testing-00000000-0000-0000-0000-000000000000-00000000-0000-0000-0000-00000000000000"
 
 	client, err := NewClient(apiKey)
 
