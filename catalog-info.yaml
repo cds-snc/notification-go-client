@@ -7,6 +7,7 @@ metadata:
   annotations:
     github.com/project-slug: cds-snc/notification-go-client
 spec:
-  type: website
+  type: library
   owner: group:cds-snc/notify-dev
+  system: gc-notification
   lifecycle: experimental
