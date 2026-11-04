@@ -6,7 +6,7 @@ kind: Component
 metadata:
   name: notification-go-client
   title: Notification Go Client
-  description: A Go client for the Government of Canada's Notification API
+  description: A Go client for the Government of Canada's Notification API.
   annotations:
     github.com/project-slug: cds-snc/notification-go-client
     backstage.io/source-location: url:https://github.com/cds-snc/notification-go-client/tree/main/
@@ -14,6 +14,6 @@ metadata:
     license: MIT
 spec:
   type: library
+  lifecycle: experimental
   owner: group:cds-snc/notify-dev
   system: gc-notification
-  lifecycle: experimental
