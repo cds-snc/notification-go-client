@@ -9,7 +9,6 @@ metadata:
   description: A Go client for the Government of Canada's Notification API.
   annotations:
     github.com/project-slug: cds-snc/notification-go-client
-    backstage.io/source-location: url:https://github.com/cds-snc/notification-go-client/tree/main/
   labels:
     license: MIT
 spec:
